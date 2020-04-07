@@ -9,5 +9,4 @@ puts
 puts
 puts
 puts
-puts "Começaremos o jogo pra você, "
-puts nome
+puts "Começaremos o jogo pra você, " + nome
