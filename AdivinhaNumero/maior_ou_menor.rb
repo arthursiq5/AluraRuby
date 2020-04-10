@@ -1,3 +1,6 @@
+#!/bin/env ruby
+# encoding: utf-8
+
 puts "Bem vindo ao jogo da adivinhação"
 puts "Qual é o seu nome?"
 
@@ -27,3 +30,5 @@ puts "Entre com o número: "
 chute = gets
 
 puts "Será que acertou? Você chutou " + chute
+
+puts chute == numero_secreto
