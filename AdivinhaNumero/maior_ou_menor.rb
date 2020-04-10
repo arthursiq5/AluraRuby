@@ -24,4 +24,8 @@ chute = gets
 
 puts "Será que acertou? Você chutou " + chute
 
-puts chute.to_i == numero_secreto
+if chute.to_i == numero_secreto
+    puts "Acertou!"
+else
+    puts "Errou!"
+end
