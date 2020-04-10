@@ -27,5 +27,9 @@ puts "Será que acertou? Você chutou " + chute
 if chute.to_i == numero_secreto
     puts "Acertou!"
 else
-    puts "Errou!"
+    if chute.to_i < numero_secreto
+        puts "Errou! O número secreto é maior"
+    else
+        puts "Errou! O número secreto é menor"
+    end
 end
