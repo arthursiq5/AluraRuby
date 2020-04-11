@@ -28,6 +28,7 @@ for tentativa in 1..limite_de_tentativas
 
     if chute.to_i == numero_secreto
         puts "Acertou!"
+        break
     else
         if chute.to_i < numero_secreto
             puts "Errou! O número secreto é maior"
