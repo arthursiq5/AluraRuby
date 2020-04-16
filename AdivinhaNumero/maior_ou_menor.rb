@@ -1,14 +1,18 @@
 #!/bin/env ruby
 # encoding: utf-8
 
-puts "Bem vindo ao jogo da adivinhação"
-puts "Qual é o seu nome?"
+def da_boas_vindas
+    puts "Bem vindo ao jogo da adivinhação"
+    puts "Qual é o seu nome?"
+    
+    # pegando entrada do teclado
+    nome = gets
+    
+    puts "\n\n\n\n\n\n"
+    puts "Começaremos o jogo pra você, " + nome
+end
 
-# pegando entrada do teclado
-nome = gets
-
-puts "\n\n\n\n\n\n"
-puts "Começaremos o jogo pra você, " + nome
+da_boas_vindas
 
 puts "Escolhendo um número entre 0 e 200..."
 
@@ -36,4 +40,4 @@ for tentativa in 1..limite_de_tentativas
             puts "Errou! O número secreto é menor"
         end
     end
-end
+end 
