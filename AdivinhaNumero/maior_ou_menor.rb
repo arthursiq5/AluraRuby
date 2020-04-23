@@ -15,11 +15,11 @@ end
 def sorteia_numero_secreto
     puts "Escolhendo um número entre 0 e 200..."
 
-    numero_secreto = 175
+    sorteado = 175
     
     puts "Escolhido... Que tal adivinhar hoje nosso número secreto?"
 
-    numero_secreto
+    sorteado
 end
 
 da_boas_vindas
