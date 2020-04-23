@@ -12,14 +12,20 @@ def da_boas_vindas
     puts "Começaremos o jogo pra você, " + nome
 end
 
+def sorteia_numero_secreto
+    puts "Escolhendo um número entre 0 e 200..."
+
+    numero_secreto = 175
+    
+    puts "Escolhido... Que tal adivinhar hoje nosso número secreto?"
+
+    return numero_secreto
+end
+
 da_boas_vindas
 
-puts "Escolhendo um número entre 0 e 200..."
-
-numero_secreto = 175
+numero_secreto = sorteia_numero_secreto
 limite_de_tentativas = 5
-
-puts "Escolhido... Que tal adivinhar hoje nosso número secreto?"
 
 for tentativa in 1..limite_de_tentativas
     puts "\n\n\n\n"
