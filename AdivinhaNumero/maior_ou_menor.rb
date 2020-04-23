@@ -19,7 +19,7 @@ def sorteia_numero_secreto
     
     puts "Escolhido... Que tal adivinhar hoje nosso número secreto?"
 
-    return numero_secreto
+    numero_secreto
 end
 
 da_boas_vindas
